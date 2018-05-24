@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuickButtonsProtCiv">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Seleccione su tipo de emergencia"
+                android:textStyle="italic|bold"
+                android:textSize="22sp"
+
+                android:textColor="@color/colorAccent"/>
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:background="@drawable/edit_button_shadow_custom"
+                android:text="Robo"
+                android:onClick="protCivAlert"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginHorizontal="25dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:drawableLeft="@drawable/ic_notifications_active_gray_35dp"/>
+
+            <Button
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_button_shadow_custom"
+                android:text="Secuestro"
+                android:onClick="protCivAlert"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="25dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:drawableLeft="@drawable/ic_notifications_active_gray_35dp"/>
+
+            <Button
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_button_shadow_custom"
+                android:text="ATAQUE VIOLENTO"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingHorizontal="10dp"
+                android:onClick="protCivAlert"
+                android:layout_marginHorizontal="25dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:drawableLeft="@drawable/ic_notifications_active_gray_35dp"/>
+            <Button
+                android:layout_marginBottom="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_button_shadow_custom"
+                android:text="OTRO"
+                android:onClick="protCivAlert"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="25dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:drawableLeft="@drawable/ic_notifications_active_gray_35dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

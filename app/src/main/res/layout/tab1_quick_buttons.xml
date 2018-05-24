@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+   >
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="140dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Seleccione una organización para reportar su emergencia."/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+       android:layout_centerHorizontal="true"
+
+       >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonProtCiv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="protCivQB"
+                android:background="@drawable/buttonprotciv"
+                android:gravity="clip_horizontal"
+                android:layout_marginRight="10dp"
+                 />
+
+            <Button
+                android:id="@+id/buttonBomberos"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="bomberosQB"
+                android:background="@drawable/bomberos_ic"
+                android:gravity="fill"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonCruzRoja"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="bomberosQB"
+                android:layout_marginRight="10dp"
+                android:gravity="fill"
+                android:background="@drawable/cruz_roja_ic" />
+
+            <Button
+                android:id="@+id/buttonPolice"
+                android:layout_width="150dp"
+                android:onClick="protCivQB"
+                android:background="@drawable/police_ic"
+                android:layout_height="150dp"
+               />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

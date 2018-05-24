@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_centerHorizontal="true"
+   android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cruz Roja:"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6181608"
+        android:onClick="callAgendaNum"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"/>
+<TextView
+    android:layout_marginTop="35dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Protección civil:"
+    android:textColor="@color/colorAccent"
+    android:textSize="30sp"
+
+    android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 6155178"
+        android:onClick="callAgendaNum"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 6154712"
+        android:onClick="callAgendaNum"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bomberos:"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 6145691"
+        android:onClick="callAgendaNum"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Policia"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6181608"
+        android:onClick="callAgendaNum"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"/>
+
+
+
+
+
+
+</LinearLayout>
